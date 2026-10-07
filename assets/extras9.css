@@ -1,0 +1,25 @@
+/* ===== advertising-themed service visuals ===== */
+.serp{width:min(390px,90%);background:#fff;border-radius:18px;padding:18px;box-shadow:0 30px 60px -25px rgba(30,20,120,.45)}
+.serp .sbar{display:flex;gap:10px;align-items:center;border:1.5px solid var(--line);border-radius:99px;padding:10px 16px;font-size:.85rem;color:var(--ink);margin-bottom:16px}
+.serp .ad{border:1.5px solid rgba(91,75,255,.35);background:linear-gradient(135deg,#f6f5ff,#effcff);border-radius:14px;padding:14px;margin-bottom:14px}
+.serp .ad small{color:var(--muted);font-size:.72rem}
+.serp .ad small b{border:1px solid var(--ink);border-radius:4px;padding:0 4px;color:var(--ink);font-size:.66rem}
+.serp .ad h5{font-family:'Space Grotesk';font-size:1rem;color:#1a56db;margin:6px 0 4px}
+.serp .ad p{font-size:.8rem;color:var(--muted);margin:0}
+.serp .res{height:10px;border-radius:6px;background:#e4e7f2;margin:10px 0}
+.serp .res.short{width:60%}
+.adimg{height:120px!important;background:linear-gradient(135deg,#0866ff,#8f7bff)!important;position:relative}
+.adimg::after{content:"SALE";position:absolute;left:12px;bottom:10px;font-family:'Space Grotesk';font-weight:700;color:#fff;font-size:1.3rem}
+.cta-pill{height:26px;border-radius:99px;background:var(--ink);width:55%;margin:2px 0 10px}
+.kp{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
+.kp div{background:var(--soft);border-radius:10px;padding:8px 10px}
+.kp small{display:block;font-size:.66rem;color:var(--muted)}
+.kp b{font-family:'Space Grotesk';font-size:1.1rem;color:var(--ink)}
+.minibars{display:flex;align-items:flex-end;gap:8px;height:80px}
+.minibars i{flex:1;height:var(--h);border-radius:6px 6px 2px 2px;background:linear-gradient(to top,#5b4bff,#00c2d1)}
+.funnel{width:min(340px,88%);display:grid;gap:10px;justify-items:center}
+.fu{height:54px;display:grid;place-items:center;color:#fff;font-family:'Space Grotesk';font-weight:700;border-radius:12px;box-shadow:0 14px 30px -14px rgba(30,20,120,.6)}
+.f1{width:100%;background:linear-gradient(135deg,#5b4bff,#7a6bff)}
+.f2{width:80%;background:linear-gradient(135deg,#4a6bff,#2f9bff)}
+.f3{width:58%;background:linear-gradient(135deg,#1fa0d8,#00c2d1)}
+.f4{width:36%;background:linear-gradient(135deg,#00b8a9,#34d399)}
