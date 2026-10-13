@@ -64,7 +64,7 @@
         });
         Array.prototype.forEach.call(di,function(x,n){x.className=n===best?'on':''});
       },{passive:true});
-      var hint=document.createElement('div');hint.className='swipe-hint';hint.innerHTML='Swipe <span>→</span>';
+      var hint=document.createElement('div');hint.className='swipe-hint';hint.innerHTML='Swipe <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span>';
       dots.insertAdjacentElement('afterend',hint);
       g.addEventListener('scroll',function(){hint.style.display='none'},{once:true,passive:true});
     });

@@ -3,14 +3,14 @@ import { animate, inView, hover } from "https://cdn.jsdelivr.net/npm/motion@12/+
 /* Scroll reveal + hover lift powered by Motion.
    - fade in + slide up 24px, once, 0.6s ease-out
    - 0.1s stagger inside grids and lists
-   - hover lift scale 1.03 on cards and buttons
+   - hover lift scale 1.012 on cards (no bounce, no buttons)
    - disabled entirely when prefers-reduced-motion is set */
 
 const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 const TARGETS = ".rv, .stats .grid > *, .logos";
 const GROUPS = ".grid, .flow, .ind-grid, .why-cards, .checks, .timeline, .faqs, .mini-stats";
-const LIFT = ".svc, .step, .quote, .post, .work, .ind, .wc, .fl, .btn";
+const LIFT = ".svc, .step, .quote, .post, .work, .ind, .wc, .fl";
 
 const els = Array.from(document.querySelectorAll(TARGETS));
 
@@ -46,7 +46,7 @@ if (!reduce) {
 
   // hover lift (mouse only; Motion ignores touch for hover)
   hover(LIFT, (el) => {
-    animate(el, { scale: 1.03 }, { duration: 0.2, ease: "easeOut" });
+    animate(el, { scale: 1.012 }, { duration: 0.2, ease: "easeOut" });
     return () => animate(el, { scale: 1 }, { duration: 0.2, ease: "easeOut" });
   });
 } else {

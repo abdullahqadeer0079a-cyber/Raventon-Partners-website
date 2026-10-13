@@ -38,8 +38,10 @@ body.menu-open{overflow:hidden}
   .hero-visual{zoom:.68;margin-top:6px}
   .page-hero{padding:116px 0 52px}
   .page-hero h1{font-size:2.1rem}
+  .logo{font-size:1.18rem;gap:8px}
+  .logo i{width:30px;height:30px;border-radius:2px;font-size:.95rem}
   .logos{padding:26px 0}
-  .logos .marq span{font-size:1.1rem}
+  .plat span{font-size:.8rem;padding:14px 8px}
   .split{gap:36px}
   .split h2{font-size:1.85rem}
   .svc{padding:28px 24px}
@@ -47,20 +49,20 @@ body.menu-open{overflow:hidden}
   .stats .grid{grid-template-columns:1fr 1fr;gap:28px 16px}
   .stats b{font-size:2.4rem}
   .step{padding:24px}
-  .step .n{font-size:2.4rem}
+  .step .n{font-size:2rem}
   .quote{padding:26px}
   .work{min-height:220px}
-  .cta{border-radius:24px;padding:44px 22px}
+  .cta{padding:44px 22px}
   .cta .btn{width:100%;justify-content:center}
   .btn{padding:14px 24px}
   .intro-grid h2{font-size:1.85rem}
   .mini-stats{gap:22px}
   .mini-stats b{font-size:1.9rem}
   .srow{padding:40px 0;gap:28px}
-  .snum{font-size:3.6rem}
+  .snum{font-size:1rem}
   .stext h2{font-size:1.8rem}
   .stext .btn{width:100%;justify-content:center}
-  .svis{min-height:280px;border-radius:22px}
+  .svis{min-height:280px}
   .flow{grid-template-columns:1fr;gap:18px}
   .fl{display:grid;grid-template-columns:60px 1fr;gap:4px 16px;text-align:left;align-items:center}
   .fl .fn{grid-row:span 2;margin:0}
@@ -73,7 +75,7 @@ body.menu-open{overflow:hidden}
   .detail{gap:34px}
   .detail h2{font-size:1.6rem}
   .side .box{padding:22px}
-  form.f{padding:22px;border-radius:20px}
+  form.f{padding:22px}
   .f input,.f select,.f textarea{font-size:16px}
   .info .it{padding:18px}
   footer{padding-top:56px}
